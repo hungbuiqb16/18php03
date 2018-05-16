@@ -1,0 +1,78 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font: 15px /1.5 Arial, Helvertica, sans-serif;
+	margin: 0;
+}
+#container{
+	max-width: 960px;
+	margin: auto;
+}
+/*Đây là phần header*/
+#header{
+	background: url("../img/nature_wide.jpg") no-repeat;
+	height: 200px;
+}
+#header .image{
+	width: 25%;
+	height: 80%;
+	position: absolute;
+	top: 4%;
+	left: 16%;
+}
+#header .image img{
+	width: 150px;
+	height: 150px;
+	border: 1px solid #ddd;
+	padding: 5px;
+	border-radius: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*Nội dung bên trái*/
+.left-content{
+	background-color: #414142;
+	float: left;
+	width: 40%;
+	height: 640px;
+	color: #FCF8E0;
+}
+#info > p{
+	background-color: #514F50;
+	margin: 0px 20px 20px 20px;	
+	padding: 15px;
+}
+.tit{
+	text-transform: uppercase;
+	margin-left: 3%;
+}
+/*Nội dung bên phải*/
+.right-content{
+	background-color: #FCF8E0;
+	float: left;
+	width: 60%;
+    height: 640px;
+	padding-left: 2%;
+}
+#info, #skill{
+	 border-bottom: 1px solid #FCF8E0;
+}
+/*----Mobile----*/
+@media screen and (max-width: 480px){
+body {
+     font-size: 13px;
+}
+#header .image{
+	width: 100%;
+	left: 0%;
+}
+.left-content{
+	width: 100%;
+ }	
+.right-content{
+	width: 100%;
+	margin-left: 0%;
+}
+}

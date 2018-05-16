@@ -1,0 +1,61 @@
+body{
+	font: 20px Arial, Helvertica, sans-serif;
+	margin: 10px;
+	color: #ffffff;
+}
+#container{
+	max-width: 1024px;
+	margin: auto;
+	border: 3px solid #A8A8A8;
+}
+/*Phần đầu trang*/
+#header{
+	height: 100px;
+	line-height: 100px;
+	background-color: #4791D8;
+}
+/*Phần nội dung*/
+#content{
+	width: 70%;
+	height: 250px;
+	line-height: 250px;
+	text-align: center;
+	margin: auto;
+	margin-top: 0.5%;
+}
+#main_content{
+	width: 69.5%;
+	height: 100%;
+	background-color: #6FC040;
+	float: left;
+}
+#sidebar{
+	width: 29.5%;
+	height: 100%;
+	background-color: #B569E3;
+	float: right;
+}
+#twin{
+	width: 70%;
+	height: 170px;
+	line-height: 170px;
+	margin: auto;
+	margin-top: 0.5%;
+	text-align: center;
+}
+#twin_child1, #twin_child2{
+	background-color: #F39019;
+	width: 49.5%;
+	height: 100%;
+	float: left;
+}
+#twin_child2{
+	margin-left: 1%;
+}
+/*Phần chân trang*/
+#footer{
+	height: 80px;
+	margin-top: 0.5%;
+	background-color: #4791D8;
+	line-height: 80px;
+}

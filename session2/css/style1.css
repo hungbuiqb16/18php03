@@ -1,0 +1,30 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font: 16px /3 Arial, Helvertica, sans-serif;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+}
+#container{
+    height: 800px;
+}
+#tweets, #replies, #search, #messages{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+#tweets{
+	background-color: #A0DDCE;
+}
+#replies{
+	background-color: #F7CF2F;
+}
+#search{
+	background-color: #697989;
+}
+#messages{
+	background-color: #499BCE;
+}

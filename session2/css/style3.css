@@ -1,0 +1,41 @@
+body{
+	font: 17px/ 3 Arial, Helvertica, sans-serif;
+	margin: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#container{
+	max-width: 768px;
+	margin: auto;
+}
+/*Phần đầu trang và chân trang*/
+#header, #footer{
+	height: 80px;
+	background-color:#CDD1D2;
+	padding-left: 20%;
+}
+/*Phần nội dung*/
+#content{
+	height: 300px;
+	background-color:#CDD1D2;
+	margin: 10% 0;
+	position: relative;
+}
+#video, #playlist{
+	height: 70%;
+	position: absolute;
+    top:18%;
+    padding-left: 6%;
+}
+#video{
+	width: 54%;
+	background-color:#EF2533;
+	float: left;
+	left: 3%;
+}
+#playlist{
+	width: 24%;
+	background-color:#25F09E;;
+	float: right;
+	right: 3%;
+}
