@@ -1,0 +1,71 @@
+*{
+	box-sizing: border-box;
+}
+body{
+
+}
+#container{
+	max-width: 960px;
+	margin: auto;
+}
+/*Đây là phần đầu trang*/
+#header{
+	border: 2px solid #07077C;
+	height: 150px;
+}
+.title{
+	background-color: #07077C;
+	color: #FFF;
+	margin-top: 0px;
+	height: 30px;
+	padding-left: 10px;
+}
+.text{
+	font-size: 18px;
+	text-align: center;
+	padding-top: 40px;
+}
+.text_header{
+	font-size: 18px;
+	text-align: center;
+	padding-top: 30px;
+}
+.text_nav{
+	font-size: 18px;
+	text-align: center;
+	padding-top: 120px;
+}
+/*Đây là phần nội dung*/
+#content{
+	border: 2px solid #07077C;
+	height: 450px;
+	margin-top: 5px;  
+}
+#nav{
+	border: 2px solid #07077C;
+	height: 96%;
+	width: 17%;
+	margin: 1% 0.5%;
+	float: left;
+}
+#main-content{
+	border: 2px solid #07077C;
+	height: 96%;
+	width: 60%;
+	margin: 1% 0.5%;
+	float: left;
+}
+#artice{
+	border: 2px solid #07077C;
+	height: 50%;
+	width: 20%;
+	margin: 1% 0.5%;
+	float: left;
+}
+#sidebar{
+	border: 2px solid #07077C;
+	height: 44%;
+	width: 20%;
+	margin: 0% 0.5%;
+	float: left;
+}
