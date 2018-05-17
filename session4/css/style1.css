@@ -2,10 +2,12 @@
 	box-sizing: border-box;
 }
 body{
-
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
 }
 #container{
-	max-width: 960px;
+    width: 960px;
 	margin: auto;
 }
 /*Đây là phần đầu trang*/
@@ -20,20 +22,15 @@ body{
 	height: 30px;
 	padding-left: 10px;
 }
+/*Đây là phần văn bản*/
 .text{
-	font-size: 18px;
-	text-align: center;
 	padding-top: 40px;
 }
 .text_header{
-	font-size: 18px;
-	text-align: center;
 	padding-top: 30px;
 }
 .text_nav{
-	font-size: 18px;
-	text-align: center;
-	padding-top: 120px;
+	padding-top: 150px;
 }
 /*Đây là phần nội dung*/
 #content{
@@ -41,31 +38,33 @@ body{
 	height: 450px;
 	margin-top: 5px;  
 }
+/*Nội dung bên trái*/
 #nav{
 	border: 2px solid #07077C;
-	height: 96%;
-	width: 17%;
-	margin: 1% 0.5%;
+	height: 434px;
+	width: 150px;
+	margin: 8px 5px;
 	float: left;
 }
+/*Nội dung chính*/
 #main-content{
 	border: 2px solid #07077C;
-	height: 96%;
-	width: 60%;
-	margin: 1% 0.5%;
+	height: 434px;
+	width: 600px;
+	margin: 8px 5px 8px 0px;
+	float: left;
+}
+/*Nội dung bên phải*/
+#artice, #sidebar{
+	border: 2px solid #07077C;
+	width: 186px;
 	float: left;
 }
 #artice{
-	border: 2px solid #07077C;
-	height: 50%;
-	width: 20%;
-	margin: 1% 0.5%;
-	float: left;
+	height: 240px;
+	margin: 8px 5px 8px 0px;
 }
 #sidebar{
-	border: 2px solid #07077C;
-	height: 44%;
-	width: 20%;
-	margin: 0% 0.5%;
-	float: left;
+	height: 186px;
+	margin: 0 5px 8px 0px;
 }
