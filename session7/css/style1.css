@@ -1,0 +1,180 @@
+*{
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: bold;
+}
+#container{
+	max-width: 1024px;
+	margin: auto;
+	border: 2px solid green;
+}
+/*Phan dau trang*/
+#header{
+	height: 100px;
+	width: 100%;
+	border-bottom: 2px solid green;
+}
+.logo{
+	width: 20%;
+	line-height: 100px;
+	height: 100%;
+	border-right: 2px solid green; 
+	float: left;
+}
+.slogan{
+	width: 80%;
+	line-height: 100px;
+	height: 100%; 
+	float: left;	
+}
+/*Phan Slide*/
+#slide{
+	width: 100%;
+	height: 150px;
+	border-bottom: 2px solid green;
+	line-height: 150px;
+}
+/*Phan News*/
+#news{
+	width: 100%;
+	height: 100px;
+	border-bottom: 2px solid green;
+}
+.news_child1, .news_child2, .news_child3{
+	width: 33.333333%;
+	height: 100%;
+	float: left;
+	line-height: 100px;
+}
+.news_child1, .news_child2{
+    border-right: 2px solid green; 
+}
+/*Phan Article*/
+#article{
+	height: 250px;
+	border-bottom: 2px solid green;
+}
+.article_child1, .article_child2{
+	width: 50%;
+	height: 100%;
+	float: left;
+	line-height: 250px;
+}
+.article_child1{
+	border-right: 2px solid green;
+}
+/*Phan chan trang*/
+#footer{
+	height: 60px;
+	clear: both;
+	line-height: 60px;
+}
+.footer_child1, .footer_child2, .footer_child3{
+	width: 33.33333%;
+	height: 100%;
+	float: left;
+}
+.footer_child1, .footer_child2{
+	border-right: 2px solid green;
+}
+/*-----Reponsive-----	*/
+@media screen and (max-width: 768px){
+/*-----Phần Header-----*/
+.logo, .slogan{
+	width: 50%;
+}
+/*-----Phần News-----*/
+#news{
+	height: 200px;
+}
+.news_child1, .news_child2{
+	width: 50%;
+	height: 50%;
+	border-bottom: 2px solid green;
+}
+.news_child2{
+	border-right: none; 
+}
+.news_child3{
+	width: 100%;
+	height: 50%;
+}
+/*-----Phần Footer-----*/
+#footer{
+	height: 120px;
+}
+.footer_child3{
+	width: 100%;
+	height: 50%;
+	border-top: 2px solid green;
+}
+.footer_child1, .footer_child2{
+	width: 50%;
+	height: 50%;
+}
+.footer_child2{
+   border-right: none;
+}
+}
+@media screen and (max-width: 480px){
+/*-----Phần Header-----*/
+.logo, .slogan{
+	width: 100%;
+	height: 50%;
+	line-height: 50px;
+}
+.logo{
+	border-bottom: 2px solid green;
+	border-right: none;
+}
+/*-----Phần News-----*/
+#news{
+	border-bottom: none;
+}
+.news_child1, .news_child2{
+	width: 100%;
+	height: 50%;
+	line-height: 50px;
+}
+.news_child1{
+	border-right: none;
+}
+.news_child3{
+	display: none;
+}
+/*-----Phần Article-----*/
+#article{
+	height: 140px;
+	border-bottom: none;
+}
+.article_child1, .article_child2{
+	height: 50%;
+	line-height: 70px;
+	width: 100%;
+}
+.article_child1{
+	border-right: none;
+	border-bottom: 2px solid green;
+}
+.article_child2{
+	border-bottom: 2px solid green;
+}
+/*-----Phần Footer-----*/
+#footer{
+	height: 80px;
+	line-height: 40px;
+}
+.footer_child3{
+    display: none;
+}
+.footer_child1, .footer_child2{
+	width: 100%;
+	height: 50%;
+}
+.footer_child1{
+	border-right: none;
+}
+.footer_child2{
+   border-top: 2px solid green;
+}
+}

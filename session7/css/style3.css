@@ -1,0 +1,259 @@
+*{
+	box-sizing: border-box;
+}
+#container{
+    max-width: 1024px;
+    margin: auto;
+}
+h3{
+	padding-left: 20px;
+}
+#container div{
+    text-align: center;
+}
+/*-----Phần Header-----*/
+header{
+	height: 100px;
+	background-color: #9EC5F6;
+	margin-bottom: 15px;
+}
+.brand, .banner, .tool{
+	height: 50%;
+	background-color: #D2E1F6;
+	float: left;
+	line-height: 50px;
+}
+.brand{
+	width: 15%;
+	margin-left: 1%;
+}
+.banner{
+	width: 60%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.tool{
+	width: 19%;
+	margin-right: 1%;
+}
+/*-----Phần Section-----*/
+section{
+	height: 150px;
+	background-color: #9EC5F6;
+	width: 79%;
+	float: left;
+	margin-bottom: 15px;
+}
+.hero_child1,.hero_child2{
+    height: 53%;
+    background-color: #D2E1F6;
+    float: left;
+    line-height: 78px; 
+}
+.hero_child1{
+	width: 61%;
+	margin-left: 1.5%;
+}
+.hero_child2{
+	width:33%;
+	margin-left: 3%;
+}
+/*-----Phần Ads-----*/
+.ads{
+	height: 150px;
+	width: 20%;
+	line-height: 130px;
+	background-color: #70A7DD;
+	margin-left: 1%;
+	float: left;
+	margin-bottom: 15px;
+}
+/*-----Phần Article-----*/
+article{
+	height: 400px;
+	background-color: #9EC5F6;
+	width: 79%;
+	float: left;
+	margin-bottom: 15px;   
+}
+.body_child1, .body_child2{
+    height: 330px;
+    background-color: #D2E1F6;
+    float: left;
+    line-height: 330px; 
+}
+.body_child1{
+	width: 25%;
+	margin-left: 1.5%;
+	float: left;
+}
+.body_child2{
+	width: 70%;
+	margin-left: 2%;
+	float: left;
+}
+/*-----Phần Slidebar-----*/
+aside{
+	height: 400px;
+	width: 20%;
+	background-color: #9EC5F6;
+	margin-left: 1%;
+	float: left;
+	margin-bottom: 15px;
+}
+.slide{
+	width: 90%;
+    height: 330px;
+    margin-left: 4%;
+    background-color: #D2E1F6;
+    line-height: 330px;
+}
+/*-----Phần Footer-----*/
+footer{
+	height: 50px;
+	background-color: #9EC5F6;
+	margin-top: 15px;
+	line-height: 50px;
+	clear: both;
+}
+/*-----Reponsive-----*/
+@media screen and (max-width: 768px){
+/*-----Phần Section-----*/
+section{
+	background-color: #9EC5F6;
+	width: 100%;
+}
+.hero_child1,.hero_child2{
+    height: 30%;
+    width: 98%;
+    float: left;
+    line-height: 40px; 
+    margin-left: 1%;
+}
+.hero_child1{
+	margin-left: 1%;
+	margin-top: -20px;
+}
+.hero_child2{
+	margin-top: 10px;
+}
+/*-----Phần Article-----*/
+article{
+	height: 500px;
+	width: 100%; 
+	position: relative;
+}
+.body_child1{
+	height: 100px;
+	line-height: 100px;
+	width: 73%;
+	margin-top: -10px;
+	margin-left: 1.5%;
+}
+.body_child2{
+	height: 330px;
+	line-height: 330px;
+	width: 97%;
+	margin-left: 1.5%;
+	margin-top: 10px;
+}
+/*-----Phần Ads-----*/
+.ads{
+	height: 110px;
+	line-height: 80px;
+	width: 22%;
+	margin-left: 0;
+	position: absolute;
+	top: 338px;
+	right: 9px;
+	z-index: 1;
+}
+/*-----Phần Slidebar-----*/
+aside{
+	height: 120px;
+	width: 100%;
+	margin-left: 0;
+}
+.slide{
+	width: 98%;
+    height: 65px;
+    margin-left: 1%;
+    margin-top: -15px;
+    line-height: 65px; 	
+}
+}
+@media screen and (max-width: 480px){
+	/*-----Phần Header-----*/
+.brand{
+	height: 30px;
+	width: 96%;
+	margin-left: 2%;
+	line-height: 30px;
+	margin-top: -15px;
+}
+.banner{
+	height: 30px;
+	width: 53%;
+	margin-left: 2%;
+	margin-right: 0%;
+	line-height: 30px;
+	margin-top: 10px;
+}
+.tool{
+	height: 30px;
+	width: 39%;
+	margin-left:  4%;
+	line-height: 30px;
+	margin-top: 10px;
+}
+/*-----Phần Section-----*/
+section{
+	height: 80px;
+}
+.hero_child1,.hero_child2{
+    height: 30%;
+    width: 96%;
+    float: left;
+    line-height: 40px; 
+    margin-left: 2%;
+}
+.hero_child1{
+   display: none;
+}
+.hero_child2{
+	height: 35px;
+	line-height: 35px;
+	margin-top: -20px;
+}
+/*-----Phần Article-----*/
+article{
+	height: 300px;
+}
+.body_child1{
+	height: 50px;
+	line-height: 50px;
+	width: 96%;
+	margin-top: -15px;
+	margin-left: 2%;
+}
+.body_child2{
+	height: 110px;
+	line-height: 110px;
+	width: 96%;
+	margin-left: 2%;
+	margin-top: 85px;
+}
+/*-----Phần Ads-----*/
+.ads{
+	height: 70px;
+	line-height: 40px;
+	width: 92%;
+	top: 332px;
+	float: none;
+    left: 4%;
+}
+/*-----Phần Slidebar-----*/
+aside{
+   display: none;
+}
+}
