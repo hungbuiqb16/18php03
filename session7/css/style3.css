@@ -119,141 +119,141 @@ footer{
 /*-----Reponsive-----*/
 @media screen and (max-width: 768px){
 /*-----Phần Section-----*/
-section{
-	background-color: #9EC5F6;
-	width: 100%;
-}
-.hero_child1,.hero_child2{
-    height: 30%;
-    width: 98%;
-    float: left;
-    line-height: 40px; 
-    margin-left: 1%;
-}
-.hero_child1{
-	margin-left: 1%;
-	margin-top: -20px;
-}
-.hero_child2{
-	margin-top: 10px;
-}
+	section{
+		background-color: #9EC5F6;
+		width: 100%;
+	}
+	.hero_child1,.hero_child2{
+	    height: 30%;
+	    width: 98%;
+	    float: left;
+	    line-height: 40px; 
+	    margin-left: 1%;
+	}
+	.hero_child1{
+		margin-left: 1%;
+		margin-top: -20px;
+	}
+	.hero_child2{
+		margin-top: 10px;
+	}
 /*-----Phần Article-----*/
-article{
-	height: 500px;
-	width: 100%; 
-	position: relative;
-}
-.body_child1{
-	height: 100px;
-	line-height: 100px;
-	width: 73%;
-	margin-top: -10px;
-	margin-left: 1.5%;
-}
-.body_child2{
-	height: 330px;
-	line-height: 330px;
-	width: 97%;
-	margin-left: 1.5%;
-	margin-top: 10px;
-}
+	article{
+		height: 500px;
+		width: 100%; 
+		position: relative;
+	}
+	.body_child1{
+		height: 100px;
+		line-height: 100px;
+		width: 73%;
+		margin-top: -10px;
+		margin-left: 1.5%;
+	}
+	.body_child2{
+		height: 330px;
+		line-height: 330px;
+		width: 97%;
+		margin-left: 1.5%;
+		margin-top: 10px;
+	}
 /*-----Phần Ads-----*/
-.ads{
-	height: 110px;
-	line-height: 80px;
-	width: 22%;
-	margin-left: 0;
-	position: absolute;
-	top: 338px;
-	right: 9px;
-	z-index: 1;
-}
+	.ads{
+		height: 110px;
+		line-height: 80px;
+		width: 22%;
+		margin-left: 0;
+		position: absolute;
+		top: 338px;
+		right: 9px;
+		z-index: 1;
+	}
 /*-----Phần Slidebar-----*/
-aside{
-	height: 120px;
-	width: 100%;
-	margin-left: 0;
-}
-.slide{
-	width: 98%;
-    height: 65px;
-    margin-left: 1%;
-    margin-top: -15px;
-    line-height: 65px; 	
-}
+	aside{
+		height: 120px;
+		width: 100%;
+		margin-left: 0;
+	}
+	.slide{
+		width: 98%;
+	    height: 65px;
+	    margin-left: 1%;
+	    margin-top: -15px;
+	    line-height: 65px; 	
+	}
 }
 @media screen and (max-width: 480px){
-	/*-----Phần Header-----*/
-.brand{
-	height: 30px;
-	width: 96%;
-	margin-left: 2%;
-	line-height: 30px;
-	margin-top: -15px;
-}
-.banner{
-	height: 30px;
-	width: 53%;
-	margin-left: 2%;
-	margin-right: 0%;
-	line-height: 30px;
-	margin-top: 10px;
-}
-.tool{
-	height: 30px;
-	width: 39%;
-	margin-left:  4%;
-	line-height: 30px;
-	margin-top: 10px;
-}
+/*-----Phần Header-----*/
+	.brand{
+		height: 30px;
+		width: 96%;
+		margin-left: 2%;
+		line-height: 30px;
+		margin-top: -15px;
+	}
+	.banner{
+		height: 30px;
+		width: 53%;
+		margin-left: 2%;
+		margin-right: 0%;
+		line-height: 30px;
+		margin-top: 10px;
+	}
+	.tool{
+		height: 30px;
+		width: 39%;
+		margin-left:  4%;
+		line-height: 30px;
+		margin-top: 10px;
+	}
 /*-----Phần Section-----*/
-section{
-	height: 80px;
-}
-.hero_child1,.hero_child2{
-    height: 30%;
-    width: 96%;
-    float: left;
-    line-height: 40px; 
-    margin-left: 2%;
-}
-.hero_child1{
-   display: none;
-}
-.hero_child2{
-	height: 35px;
-	line-height: 35px;
-	margin-top: -20px;
-}
+	section{
+		height: 80px;
+	}
+	.hero_child1,.hero_child2{
+	    height: 30%;
+	    width: 96%;
+	    float: left;
+	    line-height: 40px; 
+	    margin-left: 2%;
+	}
+	.hero_child1{
+	   display: none;
+	}
+	.hero_child2{
+		height: 35px;
+		line-height: 35px;
+		margin-top: -20px;
+	}
 /*-----Phần Article-----*/
-article{
-	height: 300px;
-}
-.body_child1{
-	height: 50px;
-	line-height: 50px;
-	width: 96%;
-	margin-top: -15px;
-	margin-left: 2%;
-}
-.body_child2{
-	height: 110px;
-	line-height: 110px;
-	width: 96%;
-	margin-left: 2%;
-	margin-top: 85px;
-}
+	article{
+		height: 300px;
+	}
+	.body_child1{
+		height: 50px;
+		line-height: 50px;
+		width: 96%;
+		margin-top: -15px;
+		margin-left: 2%;
+	}
+	.body_child2{
+		height: 110px;
+		line-height: 110px;
+		width: 96%;
+		margin-left: 2%;
+		margin-top: 85px;
+	}
 /*-----Phần Ads-----*/
-.ads{
-	height: 70px;
-	line-height: 40px;
-	width: 92%;
-	top: 332px;
-	float: none;
-    left: 4%;
-}
+	.ads{
+		height: 70px;
+		line-height: 40px;
+		width: 92%;
+		top: 332px;
+		float: none;
+	    left: 4%;
+	}
 /*-----Phần Slidebar-----*/
-aside{
-   display: none;
-}
+	aside{
+	   display: none;
+	}
 }
