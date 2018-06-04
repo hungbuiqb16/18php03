@@ -1,0 +1,236 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font: 15px /1.5 Arial, Helvetica, sans-serif ;
+	background: url(../img/bg.png);
+}
+#container{
+	max-width: 1024px;
+	margin: auto;
+	text-align: justify;
+	position: relative;
+}
+/*-----Phần Đầu trang-----*/
+header{
+	border-bottom:#e8491d 3px solid;
+	background-color: #35424a;
+}
+.logo{
+    float: left;
+    width: 16%;
+}
+.logo img {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner{
+	float: right;
+	width: 80%;
+}
+.banner img{
+	width: 100%;
+	height: auto;
+}
+/*-----Phần Menu-----*/
+#menu{
+	clear: both;
+}
+#menu ul{
+	list-style-type: none;
+	background-color: #222222;
+	padding: 0;
+}
+#menu ul li{
+	display: inline-table;
+	position: relative;  
+}
+#menu ul li a{
+	color:#fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	padding: 10px 16px;
+	position: relative;
+}
+#menu ul li a:hover{
+	color:#e8491d;
+}
+.active{
+	background-color: #e8491d;
+}
+.active:hover{
+  background: #222222 
+}
+.sub-menu{
+	display: none;
+	position: absolute;
+	width: 200px;
+	border-top: 1px solid #e8491d;
+	z-index:1;
+}
+#menu ul li:hover .sub-menu{
+	display: block;
+}
+.sub-menu li:hover{
+  background: #555;
+}
+.sub-menu li{
+	display: block;
+}
+.sub-menu li{
+	width: 100%;
+}
+/*-----Phần Giới thiệu-----*/
+#showcase{
+	background: url("../img/showcase.png");
+	color: #fff;
+	text-align: center;
+	border-bottom:#e8491d 3px solid;
+	margin-top: -25px;
+}
+#showcase h2{
+	position: relative;
+    top: 0px;
+	font-size: 30px;
+	padding: 10px;
+	animation-name: heading;
+	animation-duration: 3s;
+}
+#showcase p{
+	position: relative;
+	font-size: 20px;
+	top:-30px;
+    animation-name: paragrap;
+    animation-duration: 3s;
+}
+ #showcase .btn{
+ 	position: relative;
+ 	display: inline-block;
+ 	color: #fff;
+ 	top:-30px;
+ 	text-decoration: none;
+ 	padding: 10px 16px;
+ 	border: 1px #e8491d solid;
+    opacity: 0;
+ 	animation-name: btn;
+ 	animation-duration: 3s;
+ 	animation-delay: 3s;
+ 	animation-fill-mode:forwards;
+ 	transition-property: transform;
+ 	transition-duration: 1s;
+ }
+.btn:hover{
+	transform: rotateY(180deg);
+	cursor: pointer;
+}
+/*---Animation---*/
+@keyframes paragrap{
+	0%    {left:-200px;}
+	100%  {left:0px;}
+}
+@keyframes heading{
+	0%    {top: -40px;}
+	100%  {top: 0px;}
+}
+@keyframes btn{
+	0%    {opacity: 0}
+	100%  {opacity: 1}
+}
+/*-----Phần Nội dung chính-----*/
+.bridge_child1, .bridge_child2, .bridge_child3{
+	width: 32%;
+	float: left;
+	padding: 8px;
+}
+.bridge_child3{
+	float: right;
+}
+.bridge_child2{
+	margin: 0 2%;
+}
+.bridge{
+	max-width: 100%;
+	height: auto;
+}
+.bridge_second{
+	max-width: 100%;
+	height: auto;
+}
+h3{
+	background-color: #e8491d;
+	color: #fff;
+	padding-left: 10px;
+}
+.more a{
+	text-decoration: none;
+	font-style: italic;
+	float: right;
+}
+.title{
+	text-decoration: none;
+}
+/*-----Phần Nội dung thứ hai-----*/
+#second-content{
+	clear: both;
+	border-top: 2px solid #e8491d;
+}
+.bridge_child4, .bridge_child5, .bridge_child6, .bridge_child7{
+	width: 23.5%;
+	float: left;
+	padding: 8px;
+}
+.bridge_child4, .bridge_child5, .bridge_child6{
+	margin-right: 2%;
+}
+/*-----Phần Chân trang-----*/
+#footer{
+	clear: both;
+	background-color: #e8491d;
+	color: #fff;
+	text-align: center;
+	padding: 2px;
+}
+#footer p a{
+	text-decoration: none;
+}
+/*-----Reponsive-----*/
+@media screen and (max-width: 768px){
+	.bridge_child1, .bridge_child2{
+	width: 48%;
+	float: left;
+}
+.bridge_child3{
+	width: 100%;
+	float: right;
+}
+.bridge_child2{
+	margin: 0 2%;
+}
+.bridge_child4, .bridge_child5, .bridge_child6, .bridge_child7{
+	width: 49%;
+	float: left;
+}
+.bridge_child4,  .bridge_child6{
+	margin-right: 2%;
+}
+.bridge_child5{
+	margin-right: 0;
+}
+}
+@media screen and (max-width: 480px){
+	.bridge_child1, .bridge_child2, .bridge_child3, .bridge_child4, .bridge_child5,.bridge_child6, .bridge_child7{
+	width: 100%;
+	float: left;
+}
+.bridge_child2{
+	margin: 0;
+}
+.bridge_child4{
+	margin-left: 0;
+}
