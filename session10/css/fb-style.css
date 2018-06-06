@@ -1,0 +1,176 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+#container{
+	background: linear-gradient(white, #D3D8E8);
+}
+/*-----Đây là phần Đầu trang-----*/
+#header{
+	height: 82px;
+	min-width: 980px;
+	margin: auto;
+	background-color: #3B5998;
+}
+#main-header{
+	width: 980px;
+	margin: auto;
+}
+.logo{
+	float: left;
+	margin-top: 30px;
+}
+.login{
+	float: right;
+    margin-top: 17px;
+}
+input[name=email], input[name=passwd]{
+	border: 1px solid #1d2a5b;
+	padding-bottom: 4px
+}
+input[name=login]{
+	background-color: #4267b2;
+	border: 1px solid #29487d;
+	padding: 2px 6px;
+	text-align: center;
+	color: #fff;
+}
+input[name=login]:hover{
+	background-color: #365899;
+	cursor: pointer;
+}
+td{
+	color: #fff;
+	font-size: 12px;
+	padding-left: 1px;
+}
+td a{
+	color: #9cb4d8;
+	text-decoration-line: none;
+}
+td a:hover{
+	text-decoration-line: underline;
+}
+/*-----Đây là phần nội dung-----*/
+#content{
+	margin: auto;
+	height: 600px;
+	width: 980px;
+	clear: both;
+}
+.logo h1 a{
+	color: #fff;
+	text-decoration-line: none;
+	font-size: 40px;
+}
+
+/*---Nội dung bên trái----*/
+.left-content{
+	width: 45%;
+	float: left;
+}
+.para{
+	color: #0E385F;
+	font-size: 20px;
+	font-weight: bold;
+	width: 450px;
+	margin-top: 40px;
+}
+/*---Đây là nội dung bên phải---*/
+.right-content{
+	width: 44%;
+	float: right;
+}
+.title{
+	color: #333;
+	font-weight: bold;
+	font-size: 36px;
+	margin-top:30px;
+	margin-bottom: 5px;
+}
+.free{
+	color: #333;
+	font-size: 19px;
+}
+/*---Form---*/
+.registration{
+	padding-top: 20px;
+}
+input[name=lastname], input[name=fistname]{
+	width: 49%;
+	border-radius: 6px;
+	border: #ccc 1px solid;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	font-size: 20px;
+}
+input[name=fistname]{
+	float: right;
+}
+input[name=phone], input[name=password]{
+	width: 100%;
+	border-radius: 6px;
+	border: #ccc 1px solid;
+	padding:10px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	font-size: 20px;
+}
+select{
+	width: 20%;
+	padding: 5px;
+	margin-top: 10px;
+	margin-left: 0;
+}
+input[type=radio]{
+	width: 5%;
+	margin-left: 5px;
+	margin-top: 10px;
+	font-size: 16px;
+}
+.note a{
+	color: #365899;
+	text-decoration: none;
+	font-size: 11px;
+	vertical-align: middle;
+	min-width: 100px;
+	margin-left: 10px;
+}
+.rules{
+	color: #777;
+	font-size: 11px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+.rules a{
+	text-decoration: none;
+	color: #365899;
+}
+input[name=submit]{
+	width: 50%;
+	background-color: #68A253;
+	border: 1px solid #3B6E22;
+	border-radius: 6px;
+	padding: 10px;
+	margin-bottom: 10px;
+	color: #fff;
+	font-size: 20px;
+	box-shadow: inset 0 1px 1px #a4e388
+}
+input[name=submit]:hover{
+	cursor: pointer;
+	background: linear-gradient(#67ae55, #578843)
+}
+.message{
+	font-size: 13px;
+	color: #666;
+	margin-top: 10px;
+}
+.message a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #365899;
+}
