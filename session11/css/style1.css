@@ -114,6 +114,7 @@ body{
 	font-weight: bold;
 	text-transform: capitalize;
 	border-bottom: 3px solid #006633;
+	cursor: pointer;
 }
 #bottom a{
 	color: #fff;
@@ -131,9 +132,6 @@ body{
 @media screen and (max-width: 768px){
 #container{
 	width: 90%;
-	margin: auto;
-	background-color: #1D2C4B;
-	color: #fff;
 	margin-top: 60px;
  }
 
@@ -141,15 +139,15 @@ body{
   width: 100%;
   float: none;
   text-align: center;
-}
+ }
 .facebook, .twitter{
 	width: 100%;
-}
+ }
 .facebook{
 	margin-bottom: 20px;
-}
+ }
 #bottom{
     margin-top: 90px;
 	clear: both;
-}
+ }
 }
