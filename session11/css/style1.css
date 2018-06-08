@@ -1,0 +1,155 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+body{
+	background-color: #294072;
+}
+#container{
+	max-width: 500px;
+	margin: auto;
+	background-color: #1D2C4B;
+	color: #fff;
+	margin-top: 130px;
+}
+/*-----Phan Dau-----*/
+#top{
+	height: 50px;
+	text-align: center;
+	color: #fff;
+	background-color: #161F37;
+	line-height: 50px;
+}
+.text{
+	font-size: 24px;
+	font-weight: bold;
+}
+/*-----Phan Form-----*/
+.username, .passwd, .login{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 20px;
+	padding: 10px 10px 10px 40px;
+	border: none;
+	color: #fff;
+	border-radius: 3px;
+}
+.username, .passwd{
+	background-color: #12192C;
+}
+.inputIcon{
+    position:relative;
+}
+.inputIcon i{
+    position:absolute;
+    left:6%;
+    top:20px;
+    padding:9px 8px;
+	color: #01CB65;
+}
+.login{
+	background-color: #01CB65;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+	border-bottom: 3px solid #009933;
+}
+#note{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 25px;
+}
+.forgot a{
+	text-decoration: none;
+	color: #fff;
+	float: right;
+}
+#social{
+	margin-top: 40px;
+	margin-left: 5%;
+	margin-bottom: 30px;
+	margin-right: 5%;
+	font-size: 12px;
+	font-weight: bold;
+	clear: both;
+	height: 20px;
+}
+.facebook, .twitter{
+	text-align: center;
+	/*height: 35px;*/
+	padding: 10px;
+	border-radius: 3px;
+	width: 45%;
+	min-height: 35px;
+	cursor: pointer;
+}
+.facebook{
+	background-color: #355797;
+	float: left;
+
+}
+.twitter{
+	background-color: #21ABD2;
+	float: right;
+
+
+}
+/*-----Phan Cuoi----*/
+#bottom{
+	height: 50px;
+	line-height: 50px;
+	background-color: #161F37;
+	clear: both;
+}
+.signup{
+	background-color: #009163;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: capitalize;
+	border-bottom: 3px solid #006633;
+}
+#bottom a{
+	color: #fff;
+	text-decoration: none;
+	margin-left: 5%;
+	float: left;
+}
+#bottom input{
+	margin-right: 5%;
+	margin-top: 5px;
+	float: right;
+	height: 40px;
+}
+/*-----Reponsive-----*/
+@media screen and (max-width: 768px){
+#container{
+	width: 90%;
+	margin: auto;
+	background-color: #1D2C4B;
+	color: #fff;
+	margin-top: 60px;
+ }
+
+.forgot{
+  width: 100%;
+  float: none;
+  text-align: center;
+}
+.facebook, .twitter{
+	width: 100%;
+}
+.facebook{
+	margin-bottom: 20px;
+}
+#bottom{
+    margin-top: 90px;
+	clear: both;
+}
+}
