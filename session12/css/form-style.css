@@ -1,0 +1,131 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+body{
+	background: #F2F2F2;
+}
+#container{
+	max-width: 800px;
+	margin: 50px auto;
+}
+#left-content{
+	width: 50%;
+	background: url('../images/bg.png') no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100%;
+	float: left;
+	color: #fff;
+	height: 600px;
+}
+.adress, .mobile, .contact{
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 40px;
+}
+.adress{
+	margin-top:40%;
+}
+.number,.mail{
+	font-size: 14px;
+	color: #00AC5D;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.location{
+	font-size: 14px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+#right-content{
+	width: 50%;
+	background: #fff;
+	float: right;
+	height: 600px;
+}
+.title{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.fname, .yourmail, .yourphone, .message{
+	width: 80%;
+	margin-left: 10%;
+	clear: both;
+	margin-top: 20px;
+	color: #767676;
+	font-weight: bold;
+}
+.yourmail{
+	margin-top: 60px;
+}
+.heading{
+	border: 1px solid #A9A9A9;
+	padding: 10px 16px;
+	width: 100%;
+	border-bottom: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.email, .phone, .mess{
+	width: 100%;
+	padding: 10px 16px;
+	height: 40px;
+}
+.firstname, .lastname{
+	width: 50%;
+	float: left;
+	padding: 10px 16px;
+}
+.mess{
+	height: 100px;
+}
+textarea{
+	resize: none;
+}
+.send{
+	margin-left: 30%;
+	width: 40%;
+	margin-top: 20px;
+}
+.sendmessage{
+	padding: 10px 16px;
+	text-align: center;
+	background: #00AC5D;
+	color: #fff;
+	border-radius: 5px;
+	border:none;
+	text-transform: uppercase;
+	width: 100%;
+	font-weight: bold;
+}
+.sendmessage:hover{
+	cursor: pointer;
+	background: #1B5E20;
+}
+@media screen and (max-width: 768px){
+	 #left-content{
+		width: 100%;
+		color: #fff;
+		height: 200px;
+	}
+	.adress, .mobile, .contact{
+		width: 80%;
+		margin-left: 30%;
+		margin-top: 13px;
+	}
+	.number,.mail{
+		margin-top: 10px;
+		margin-left: 30px;
+	}
+	.location{
+		margin-top: 10px;
+	}
+	#right-content{
+		width: 100%;
+	}
+}
