@@ -1,21 +1,3 @@
-// function changeInfo1(){
-// 	document.getElementById('img').src='./images/degea.png';
-// 	document.getElementById('profile').innerHTML="David Degea";
-// }
-// function changeInfo2(){
-// 	document.getElementById('img').src='./images/jones.png';
-// 	document.getElementById('profile').innerHTML="Phil Jones";
-// }
-// function changeInfo3(){
-// 	document.getElementById('img').src='./images/pogba.png';
-// 	document.getElementById('profile').innerHTML="Paul Pogba";
-// }
-// function changeInfo4(){
-// 	document.getElementById('img').src='./images/lukaku.png';
-// 	document.getElementById('profile').innerHTML="Romelu Lukaku";
-// }
-
-
 function changeInfo(x,y,z){
 	var name = x;
 	var year = y;

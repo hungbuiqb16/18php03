@@ -1,0 +1,50 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/*-----Đây là phần Header-----*/
+#header{
+	height: 110px;
+}
+.logo{
+	width: 10%;
+	height: 50%;
+	border-right: 1px solid #E1E1E1;
+	float: left;;
+}
+.login{
+	width: 8%;
+	height: 50%;
+	float: left;
+}
+.menu{
+	width: 60%;
+	height: 50%;
+	float: left;
+}
+/*---Menu---*/
+.menu ul{
+	list-style-type: none;
+}
+.menu ul li{
+    display: inline-block;
+    position: relative;
+    padding: 10px 16px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #333;
+	text-transform: uppercase;
+}
+.phone{
+	background-color: #3AC4FA;
+	height: 50%;
+	width: 10%;
+	float: right;
+}
+/*-----Đây là phần nội dung-----*/
+.bookroom img{
+	width: 100%;
+	height: auto;
+}

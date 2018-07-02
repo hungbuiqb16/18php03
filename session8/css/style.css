@@ -1,6 +1,5 @@
 *{
 	box-sizing: border-box;
-
 }
 body{
 	margin: 0;
@@ -43,7 +42,7 @@ header{
 }
 #menu ul{
 	list-style-type: none;
-	background-color: #35424a;
+	background-color: #222222;
 	padding: 0;
 }
 #menu ul li{
@@ -56,21 +55,35 @@ header{
 	text-transform: uppercase;
 	display: block;
 	padding: 10px 16px;
+	position: relative;
 }
 #menu ul li a:hover{
-	background: #e8491d;
+	color:#e8491d;
+}
+.active{
+	background-color: #e8491d;
+}
+.active:hover{
+  background: #222222 
 }
 .sub-menu{
 	display: none;
 	position: absolute;
 	width: 200px;
+	border-top: 1px solid #e8491d;
 	z-index:1;
 }
 #menu ul li:hover .sub-menu{
 	display: block;
 }
-.active{
-	background-color: #e8491d;
+.sub-menu li:hover{
+  background: #555;
+}
+.sub-menu li{
+	display: block;
+}
+.sub-menu li{
+	width: 100%;
 }
 /*-----Phần Giới thiệu-----*/
 #showcase{
@@ -132,6 +145,7 @@ header{
 .bridge_child1, .bridge_child2, .bridge_child3{
 	width: 32%;
 	float: left;
+	padding: 8px;
 }
 .bridge_child3{
 	float: right;
@@ -152,13 +166,23 @@ h3{
 	color: #fff;
 	padding-left: 10px;
 }
+.more a{
+	text-decoration: none;
+	font-style: italic;
+	float: right;
+}
+.title{
+	text-decoration: none;
+}
 /*-----Phần Nội dung thứ hai-----*/
 #second-content{
 	clear: both;
+	border-top: 2px solid #e8491d;
 }
 .bridge_child4, .bridge_child5, .bridge_child6, .bridge_child7{
 	width: 23.5%;
 	float: left;
+	padding: 8px;
 }
 .bridge_child4, .bridge_child5, .bridge_child6{
 	margin-right: 2%;
@@ -170,6 +194,9 @@ h3{
 	color: #fff;
 	text-align: center;
 	padding: 2px;
+}
+#footer p a{
+	text-decoration: none;
 }
 /*-----Reponsive-----*/
 @media screen and (max-width: 768px){
