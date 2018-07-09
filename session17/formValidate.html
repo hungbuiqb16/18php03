@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign In</title>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+	<style type="text/css">
+		.error{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+    <h1>Register form</h1>
+    <form action="#" name="register" method="post">
+		<p>Name:<input type="text" name="name" id = "name"> <span class="error" id="error_name"></span></p>
+		<p>Gender:
+			<input type="radio" name="gender" value="0"> Nam
+			<input type="radio" name="gender" value="1"> Nữ
+			<span class="error" id="error_gender"></p>
+		</p>
+		<p>Year of Birth:<input type="text" name="yearofbirth" id = "year"> <span class="error" id="error_year"></span></p>
+        <p>Province/City:
+        	<select name="city" id="city">
+        		<option value="0"> Tỉnh/thành</option>
+        		<option value="1"> Hà Nội</option>
+        		<option value="2"> Đà Nẵng</option>
+        		<option value="3"> TP. Hồ Chí Minh</option>
+        		<option value="4"> Khác</option>
+        	</select>
+        	<span class="error" id="error_city"></p>
+        </p>
+        <p><input id="button" type="button" name="register" value="Register"></p>
+    </form>
+    <script type="text/javascript" src="./js/common.js"></script>
+</body>
+</html>
